@@ -2,13 +2,13 @@
 
 ## Description
 
-This is a Node.js command-line application to generate a team profile HTML page.
+This is a command-lin application to generate a team profile HTML page.
 
 The application takes from a user piece of information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
 
 ## Screenshot
 
-![Terminal View](./screenshots/terminalView.png)
+![Terminal View](./screenshots/terminalView.png)<br>
 ![Example Page](./screenshots/ExampleOfCreatedPage.png)
 
 ## Table of Contents
