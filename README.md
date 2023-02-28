@@ -8,11 +8,11 @@ The application takes from a user piece of information about employees on a soft
 
 ## Screenshot
 
-**The view of a command-line application**
+**The view of a command-line application:**
 ![Terminal View](./screenshots/terminalView.png)
 <br>
 
-**The view of a sample page generated using the application**
+**The view of a sample page generated using the application:**
 ![Example Page](./screenshots/ExampleOfCreatedPage.png)
 
 ## Table of Contents
