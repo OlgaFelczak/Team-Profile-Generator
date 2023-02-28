@@ -8,7 +8,8 @@ The application takes from a user piece of information about employees on a soft
 
 ## Screenshot
 
-![Terminal View](./screenshots/terminalView.png)<br />
+![Terminal View](./screenshots/terminalView.png)
+<br>
 ![Example Page](./screenshots/ExampleOfCreatedPage.png)
 
 ## Table of Contents
