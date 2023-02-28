@@ -2,14 +2,17 @@
 
 ## Description
 
-This is a command-lin application to generate a team profile HTML page.
+This is a command-line application to generate a team profile HTML page.
 
 The application takes from a user piece of information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
 
 ## Screenshot
 
+**The view of a command-line application**
 ![Terminal View](./screenshots/terminalView.png)
 <br>
+
+**The view of a sample page generated using the application**
 ![Example Page](./screenshots/ExampleOfCreatedPage.png)
 
 ## Table of Contents
