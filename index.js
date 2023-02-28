@@ -11,8 +11,6 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./src/page-template.js");
 
-// TODO: Write Code to gather information about the development team members, and render the HTML file.
-
 console.log("Please build your team.");
 
 const employees = [];
@@ -56,19 +54,19 @@ inquirer
     promptOption();
   });
 
-const promptOption = () => {
+function promptOption() {
   inquirer
     .prompt([
       {
         type: "list",
         name: "teamList",
         message: "Which type of team member would you like to add?",
-        options: ["Engineer", "Intern", "Finish building the team"],
+        choices: ["Engineer", "Intern", "Finish building the team"],
       },
     ])
     .then((answer) => {
       // New prompting based on list option
-      if (answers.teamList === "Engineer") {
+      if (answer.teamList === "Engineer") {
         // User choose to add an engineer
         promptEngineer();
       } else if (answer.teamList === "Intern") {
@@ -79,7 +77,7 @@ const promptOption = () => {
         buildPage();
       }
     });
-};
+}
 
 const promptEngineer = () => {
   inquirer
@@ -114,10 +112,10 @@ const promptEngineer = () => {
         answer.github
       );
       employees.push(engineer);
-    });
 
-  // Call function to present menu with options to add team members
-  promptOption();
+      // Call function to present menu with options to add team members
+      promptOption();
+    });
 };
 
 const promptIntern = () => {
@@ -153,10 +151,10 @@ const promptIntern = () => {
         answer.school
       );
       employees.push(intern);
-    });
 
-  // Call function to present menu with options to add team members
-  promptOption();
+      // Call function to present menu with options to add team members
+      promptOption();
+    });
 };
 
 const buildPage = () => {
